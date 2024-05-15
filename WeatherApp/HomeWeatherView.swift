@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeWeatherView.swift
 //  WeatherApp
 //
 //  Created by Alex Eluro on 15/05/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeWeatherView: View {
     
     @State private var isNightMode: Bool = true
     
@@ -66,5 +66,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    HomeWeatherView()
 }
